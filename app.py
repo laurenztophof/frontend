@@ -5,7 +5,6 @@ from PIL import Image
 image = Image.open('../wally_foto.jpeg')
 
 st.title('Where is Wally?')
-
 wally = st.image(image, width=700)
 
 
