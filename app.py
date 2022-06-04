@@ -2,11 +2,11 @@ import streamlit as st
 import numpy as np
 from PIL import Image
 
-#image = Image.open('../wally_foto.jpeg')
+image = Image.open('../wally_foto.jpeg')
 
 st.title('Where is Wally?')
 
-#wally = st.image(image, width=700)
+wally = st.image(image, width=700)
 
 def content():
 
@@ -41,6 +41,6 @@ def content():
             st.success('Wally is found!')
             st.image(np_picture)
             st.balloons()
-
+    st.slider('Is the location right?')
 
 content()
