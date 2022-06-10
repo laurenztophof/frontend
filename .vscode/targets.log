@@ -7,7 +7,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 
 # This program built for i386-apple-darwin11.3.0
 
-# Make data base, printed on Thu Jun  2 14:55:55 2022
+# Make data base, printed on Tue Jun  7 11:04:50 2022
 
 # Variables
 
@@ -46,7 +46,7 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/2q/rn1rjrp95_zgwhc4bkwcln3w0000gn/T/vscode-ipc-0b09a5d5-9e5a-4344-9182-b036e77b741f.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/2q/rn1rjrp95_zgwhc4bkwcln3w0000gn/T/vscode-ipc-03e1ecd8-90b1-40f4-b374-bfa63f51ba6a.sock
 # environment
 VSCODE_CWD = /Users/laurenztophof/code/lukasfleischhauer/frontend
 # environment
@@ -56,7 +56,7 @@ LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
 VIRTUAL_ENV = /Users/laurenztophof/.pyenv/versions/3.8.13/envs/lewagon
 # environment
-LaunchInstanceID = 9A2AB905-EEAA-4FB0-9DD6-CD56CCA48C72
+LaunchInstanceID = 4EA9D829-13A6-465B-8215-F537EDF6E134
 # environment
 VSCODE_LOG_STACK = false
 # environment
@@ -66,7 +66,7 @@ PYENV_ROOT = /Users/laurenztophof/.pyenv
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.9oQ87pbxTb/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.xjp9tVQfr5/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
@@ -114,7 +114,7 @@ USER = laurenztophof
 # makefile
 .DEFAULT_GOAL := install_requirements
 # environment
-TERM_SESSION_ID = AAAF239F-1C27-4C6A-AA5F-E6C59EFA344A
+TERM_SESSION_ID = 0F1A7CD2-016B-42E9-A301-FB236A751416
 # environment
 LESS = -R
 # automatic
@@ -144,7 +144,7 @@ TERM_PROGRAM_VERSION = 443
 # environment
 NVM_DIR = /Users/laurenztophof/.nvm
 # environment
-XPC_SERVICE_NAME = application.com.microsoft.VSCode.4561004.4561010.CDE2DA5A-07BE-49E2-9B8D-A80D364DC85E
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.4561004.4561010.A15187FC-8608-4C53-895D-3EFE2E1893F6
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
@@ -168,7 +168,7 @@ PYENV_VIRTUALENV_DISABLE_PROMPT = 1
 # environment
 PYENV_VIRTUAL_ENV = /Users/laurenztophof/.pyenv/versions/3.8.13/envs/lewagon
 # environment
-SECURITYSESSIONID = 186b1
+SECURITYSESSIONID = 186b4
 # automatic
 ^F = $(notdir $^)
 # default
@@ -184,7 +184,7 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 515
+VSCODE_PID = 592
 # variable set hash-table stats:
 # Load=87/1024=8%, Rehash=0, Collisions=2/111=2%
 
@@ -194,13 +194,16 @@ VSCODE_PID = 515
 
 # Directories
 
-# . (device 16777232, inode 5959364): 12 files, no impossibilities.
+# . (device 16777231, inode 5959364): 13 files, no impossibilities.
 
-# 12 files, no impossibilities in 1 directories.
+# 13 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
 # No implicit rules.
+
+ 
+make: *** No rule to make target `all'.  Stop.
 
 # Files
 
@@ -308,11 +311,8 @@ install:
 # # of strings in strcache: 1
 # # of strcache buffers: 1
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
- 
-make: *** No rule to make target `all'.  Stop.
-
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Thu Jun  2 14:55:55 2022
+# Finished Make data base on Tue Jun  7 11:04:50 2022
 
  
